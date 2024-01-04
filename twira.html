@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home / X</title>
+    <link rel="icon" type="images/x-icon" href="images/x.png" />
+    <link rel="stylesheet" href="twira.css" />
+    <script src="https://kit.fontawesome.com/9164023666.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-col">
+        <h1>X</h1>
+        <div class="links">
+          <ul>
+            <li>
+              <a href="/"><i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="/"
+                ><i class="fa-solid fa-magnifying-glass"></i>Explore</a
+              >
+            </li>
+            <li>
+              <a href="/"><i class="fa-regular fa-bell"></i>Notifications</a>
+            </li>
+            <li>
+              <a href="/"><i class="fa-regular fa-envelope"></i>Messages</a>
+            </li>  
+
+            <li>
+              <a href="/"><i class="fa-regular fa-envelope"></i>Grok</a>
+            </li> 
+
+            <li>
+              <a href="/"><i class="fa-regular fa-user"></i>Profile</a>
+            </li>
+            <li>
+              <button onclick="more()"><i class="fa-solid fa-ellipsis"></i>More</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="more" id="more">
+          <ul class="more-links">
+            <li style="border-radius: 10px 10px 0px 0px;">
+              <a href="/"><i class="fa-regular fa-rectangle-list"></i>Lists</a>
+            </li>
+
+            <li>
+              <a href="/"><i class="fa-regular fa-circle-check"></i>Premium</a>
+            </li>
+
+            <li>
+              <a href="/"><i class="fa-solid fa-user-group"></i>Bookmarks</a>
+            </li>
+
+            <li>
+              <a href="/"><i class="fa-solid fa-user-group"></i>Communities</a>
+            </li>
+
+            <li>
+              <a href="/"><i class="fa-solid fa-user-group"></i>Monetization</a>
+            </li>
+          </ul>
+
+          <hr>
+
+          <ul class="other-links">
+            <li>Creator studio</li>
+            <li>Professional tools</li>
+            <li style="border-radius: 0px 0px 10px 10px;">Settings and Support</li>
+          </ul>
+        </div>
+
+        <div class="post" onclick="hide()">
+          <a href="/" class="post">Post</a>
+        </div>
+
+        <div class="prof" onclick="hide()">
+          <img src="images/nobg.png" alt="profile" class="profile-pic" />
+
+          <div class="user">
+            <h2 class="name">Munyi Victor</h2>
+            <h2 class="username">@munyi_victor</h2>
+          </div>
+
+          <i class="nav">...</i>
+        </div>
+      </div>
+
+      <div class="news-col" onclick="hide()">
+        <div class="feed">
+          <div class="category">
+            <h3 class="fy">For you</h3>
+            <h3 class="fol">Following</h3>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="images/nobg.png" alt="" class="profile-pic" />
+
+          <div class="inpt">
+            <input type="text" placeholder="What's happening now?!" id="input"/>
+
+            <div class="icons">
+              <ul>
+                <li>
+                  <a href="/" title="Media"
+                    ><i class="fa-regular fa-image"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="GIF"
+                    ><i class="fa-solid fa-clapperboard"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="Poll"
+                    ><i class="fa-solid fa-sliders"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="Emoji"
+                    ><i class="fa-regular fa-face-smile"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="Schedule"
+                    ><i class="fa-regular fa-calendar"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="/" title="Tag Location"
+                    ><i class="fa-solid fa-location-dot"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="tweet-btn">
+            <button>Post</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="trend-col" onclick="hide()">
+        <div class="search">
+          <input
+            type="search"
+            name="search"
+            class="search-bar"
+            placeholder="Search"
+          />
+          <a class="search-icon"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+
+        <div class="subscribe">
+          <h3>Subscribe to Premium</h3>
+          <h5>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</h5>
+          <a href="/" class="subscribe-btn">Subscribe</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="twira.js"></script>
+  </body>
+</html>
