@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="profile-col">
+      <div class="profile-col" id="pro">
         <h1>X</h1>
         <div class="links">
           <ul>
@@ -200,7 +200,8 @@
               <h2>...</h2>
             </a>
           </div>
-          <div class="trends">
+
+          <div class="trends" style="border-radius: 0 0 18px 18px;">
             <div>
               <p>Trending in Kenya</p>
               <h4>TB Joshua</h4>
@@ -210,6 +211,51 @@
             <a href="#" title="More" class="more-on-trend">
               <h2>...</h2>
             </a>
+          </div>
+        </div>
+
+        <div class="notifications">
+          <div>
+            <h2>Notifications</h2>
+          </div>
+
+          <div class="not" onclick="check()">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div>
+
+          <div class="not" onclick="check()">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div>
+
+          <div class="not" onclick="check()">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div>
+
+          <div class="not" onclick="check()">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div>
+
+          <div class="not" onclick="check()">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div>
+
+          <!-- <div class="not" onclick="check()" style="border-radius: 0 0 18px 18px;">
+            <img src="images/nobg.png" alt="" class="not-img">
+            <p><span style="font-weight: bold;">Mr Right</span> started following you!</p>
+          </div> -->
+        </div>
+
+        <div class="messages" id="msg">
+          <div>
+            <h2>Messages</h2>
+          </div>
+          <div class="msg-btn">
+            <h1 onclick="showMsg()">«</h1>
           </div>
         </div>
       </div>

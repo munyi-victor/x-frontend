@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
   background-color: #000;
@@ -238,8 +239,8 @@ body{
 }
 .feed .category h3{
   align-items: center;
-  padding-left: 115px;
-  padding-right: 115px;
+  padding-left: 114px;
+  padding-right: 114px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -383,7 +384,7 @@ body{
   margin-right: 30px;
   margin-top: 20px;
   border-radius: 30px;
-  padding: 20px 30px;
+  /* padding: 20px 30px; */
   width: 350px;
   height: 60vh;
 }
@@ -391,6 +392,7 @@ body{
 .trends-for-you h2 {
   margin-bottom: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 30px;
 }
 
 .trends-for-you .trends {
@@ -411,6 +413,7 @@ body{
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 5px 30px;
 }
 
 .trends:hover{
@@ -430,4 +433,68 @@ body{
 
 .more-on-trend:hover {
   background-color: lightblue;
+}
+
+
+/* notifications */
+.notifications {
+  background-color: #333;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 30px;
+  /* padding: 20px 30px; */
+  width: 350px;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.notifications h2 {
+  padding: 20px 30px;
+}
+
+.not {
+  display: flex;
+  background-color: lightblue;
+  padding: 20px 30px;
+  color: #000;
+  border-bottom: 1px solid #333;
+}
+
+.not p span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.not-img{
+  width: 20px;
+  border: 1px solid #555;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+/* Meassages */
+.messages {
+  background-color: #000;
+  box-shadow: 0px 0px 4px 2px #eee;
+  border-radius: 20px;
+  height: 60vh;
+  width: 25vw;
+  overflow: hidden;
+  position: fixed;
+  top: 92vh;
+  left: 66.5vw;
+  padding: 10px 20px;
+  z-index: 100;
+  margin-left: 30px;
+}
+/* .messages h2 {
+
+} */
+
+.msg-btn h1 {
+  margin-top: -20px;
+  margin-left: 20vw;
+  transform: rotate(90deg);
+  cursor: pointer;
 }
